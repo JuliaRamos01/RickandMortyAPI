@@ -30,33 +30,38 @@ const Title = styled.h1`
 `;
 
 const Containercards = styled.div`
-  width: 50vw;
-  height: 30vh;
+  width: 100vw;
+  height: 50vh;
   display: grid;
-  /* border: solid red 2px; */
+  justify-content: center;
+  padding: 0 0 40px 0;
+  /* border: 3px pink solid; */
 `;
 
 const Cards = styled.div`
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  width: 40vw;
+  border: 1px solid #B0FC38;
+  box-shadow: 2px 2px 4px #AEF359;
   text-align: center;
-  padding: 20px;
+  align-items: center;
   position: relative;
-  overflow: hidden;
 img {
     width: 12vw;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 15px;
+    left: 28vh;
+    border-radius: 100px;
   }
 `; 
 
 const Description = styled.h2`
   color: white;
   font-size: 18px;
+  padding: 200px 0 0 0;
 
   h3 {
     font-weight: lighter;
+    padding: 5px 0 0 0;
   }
 `;
 
